@@ -10,7 +10,7 @@ public class SingletonThreadSafeImpl {
         if (instance == null) {
             synchronized (SingletonThreadSafeBlockImpl.class) {
                 if (instance == null) {
-                    instance = new SingletonThreadSafeBlockImpl();
+                    instance = new SingletonThreadSafeImpl();
                 }
             }
         }

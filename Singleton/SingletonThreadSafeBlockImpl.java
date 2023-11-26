@@ -1,4 +1,4 @@
-// implementing thread safe using synchronized block 
+// implementing thread safe using synchronized block : Lazy initialization with double-checked locking
 public class SingletonThreadSafeBlockImpl {
     private static SingletonThreadSafeBlockImpl instance;
 

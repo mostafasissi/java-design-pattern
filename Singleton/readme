@@ -1,0 +1,24 @@
+## Singleton pattern 
+  -- Singleton pattern  is creation design pattern , providing that only one instance of the class exist in the all of the application 
+  -- The singleton object or instance is stateless 
+  -- One instance is shared by all Consumer 
+
+## How to implement the singleton pattern 
+ create a class that have : 
+    - private constructor 
+    - private static field of class (instance type singleton)
+    - public static method for returning the instance 
+
+## How to initialize instance 
+ there 4 type of initializing :
+    - Eager intialization (the instance is initialized at the class loading time)
+    - Lazy initialization (the instance is initialized at the first invockation of getInstance method )
+    - Thread Safe intialization (using synchronized method ) 
+    - Thread Safe block initialization (using synchronized block )
+
+## Use cases of singleton pattern 
+    - Shared database instance 
+    - Staleless class (object)
+    - Session 
+    - User Logging 
+    - Cache 
